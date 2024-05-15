@@ -1,0 +1,133 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left img {
+    width:350px;
+    height: 450px;
+    height: auto;
+    padding-left: 200px;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #stname1{ 
+    padding-left: 60px;
+    border-bottom: 2px solid rgb(214, 213, 213);
+    border-top: #fff;
+    border-left: #fff;
+    border-right: white;
+    position: relative;
+    left: 10px;
+  }
+  #stname2{ 
+    padding-left: 60px;
+    border-bottom: 2px solid rgb(214, 213, 213);
+    border-top: #fff;
+    border-left: #fff;
+    border-right: white;
+    position: relative;
+    left: 17px;
+    width: 23%;
+  }
+
+
+  #stname1::placeholder{
+    color:rgb(162, 154, 154);
+  }
+
+  #stname2::placeholder{
+    color:rgb(162, 154, 154);
+  }
+
+  $white: #fff;
+  $google-blue: #4285f4;
+  $button-active-blue: #1669F2;
+  
+  .google-btn {
+    position: relative;
+    top: -40px;
+    left: 120px;
+    width: 184px;
+    height: 42px;
+    background-color: $google-blue;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+    .google-icon-wrapper {
+      position: absolute;
+      margin-top: 1px;
+      margin-left: 1px;
+      width: 40px;
+      height: 40px;
+      border-radius: 2px;
+      background-color: $white;
+    }
+    .google-icon {
+      position: absolute;
+      margin-top: 11px;
+      margin-left: 11px;
+      width: 18px;
+      height: 18px;
+    }
+    .btn-text {
+      float: right;
+      margin: 11px 11px 0 0;
+      color: $white;
+      font-size: 14px;
+      letter-spacing: 0.2px;
+      font-family: "Roboto";
+    }
+    &:hover {
+      box-shadow: 0 0 6px $google-blue;
+    }
+    &:active {
+      background: $button-active-blue;
+    }
+  }
+  

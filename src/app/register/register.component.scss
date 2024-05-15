@@ -1,0 +1,118 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left img {
+    max-width: 140%;
+    height: 450%;
+    height: auto;
+    padding-left: 0px;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #stname1{ 
+    padding-left: 60px;
+    border-bottom: 2px solid rgb(214, 213, 213);
+    border-top: #fff;
+    border-left: #fff;
+    border-right: white;
+    position: relative;
+    left: 10px;
+  }
+  #stname2{ 
+    padding-left: 60px;
+    border-bottom: 2px solid rgb(214, 213, 213);
+    border-top: #fff;
+    border-left: #fff;
+    border-right: white;
+    position: relative;
+    left: 17px;
+    width: 29%;
+  }
+
+
+  #stname1::placeholder{
+    color:rgb(162, 154, 154);
+  }
+
+  #stname2::placeholder{
+    color:rgb(162, 154, 154);
+  }
+
+
+  #stname3::placeholder{
+    color:rgb(162, 154, 154);
+  }
+
+  #stname4::placeholder{
+    color:rgb(162, 154, 154);
+  }
+
+  #stname3{ 
+    padding-left: 60px;
+    border-bottom: 2px solid rgb(214, 213, 213);
+    border-top: #fff;
+    border-left: #fff;
+    border-right: white;
+    position: relative;
+    left: 39px;
+    width: 24%;
+  }
+  #stname4{ 
+    padding-left: 60px;
+    border-bottom: 2px solid rgb(214, 213, 213);
+    border-top: #fff;
+    border-left: #fff;
+    border-right: white;
+    position: relative;
+    left: 15px;
+    width: 25%;
+  }
+

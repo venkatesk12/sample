@@ -1,0 +1,37 @@
+<div class="login-container">
+    <div class="left">
+      <img src="assets/image/images.png" alt="Login Image">
+    </div>
+    <div class="right">
+      <h1>Log In</h1>
+      <form>
+        <form>
+          <div class="form-group">
+            <label for="email"><i class="fa fa-envelope"></i> 
+          <input type="text"  [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control" id="stname1" placeholder="Your Email"/></label>
+          </div>
+          <div class="form-group">
+            <label for="password"><i class="fa fa-lock"></i> 
+           <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="form-control" id="stname2" placeholder="Password"/></label>
+          </div>
+        <div class="form-group">
+          <p>
+          <input type="checkbox" id="remember-me" name="remember-me">Terms and Condition</p>
+          <div class="form-group">
+            <p><button type="submit" class="btn btn-primary" (click)="login()">Login</button>    OR    <a routerLink="google"  id="googlelink"><div class="google-btn">
+              <div class="google-icon-wrapper">
+                <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+              </div>
+              <p class="btn-text"><b>Sign in with google</b></p>
+            </div></a></p>
+          </div>
+          <br>
+          <div>
+            <a routerLink="register">Create a Account</a>
+          </div>
+        </div>
+        </form>
+      </form>
+    </div>
+</div>
+  
